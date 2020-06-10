@@ -23,10 +23,6 @@ nav{
   align-items: center;
 }
 
-/* .logo h1{
- 
-} */
-
 .logo .underline:not(.hotel){
   font-family: serif;
   font-size: 2em;
@@ -374,3 +370,154 @@ h2 {
     width: 640px;
     height: 568px;
 }
+
+
+
+@media screen and (max-width: 1324px){
+  
+  .logo .underline:not(.hotel){
+    font-size: 1.8em;
+  }
+  .logo h1 .hotel{
+    color: white;
+    font-weight: lighter;
+    font-size: 1.3em;
+  }
+
+  .nav-section li{
+    margin: .8em;
+  }
+  
+  .nav-section li a{
+    font-size: 18px;
+  }
+
+  .flex{
+    position: absolute;
+    top: 600px;
+    left: 420px;
+  }
+
+  form >*{
+    margin: 0 1.3em;
+  }
+}
+@media screen and (max-width: 1200px){
+.container{
+  padding: 1.5em 3em;
+}
+
+  .logo .underline:not(.hotel){
+    font-size: 1.5em;
+  }
+  .logo h1 .hotel{
+    font-size: 1em;
+  }
+
+  .nav-section li{
+    margin: .6em;
+  }
+  
+  .flex{
+    position: absolute;
+    top: 600px;
+    left: 300px;
+  }
+
+  form >*{
+    margin: 0 1.2em;
+  }
+}
+
+@media screen and (max-width: 1200px){
+  
+    .logo .underline:not(.hotel){
+      font-size: 1.4em;
+    }
+    .logo h1 .hotel{
+      font-size: 1em;
+    }
+  
+    .nav-section li{
+      margin: .5em;
+    }
+
+    .nav-section li a{
+      font-size: 18px;
+    }
+    
+    .flex{
+      position: absolute;
+      top: 580px;
+      left: 280px;
+    }
+  
+    form >*{
+      margin: 0 1.1em;
+    }
+  }
+
+  @media screen and (max-width: 1000px){
+    .header{
+     
+      margin-top: 10em;
+    }
+    
+    .welcome{
+      font-size: 2em;
+      padding: .3em 18px;
+    }
+  
+    
+    .enjoy{
+      font-size: 3em;
+    }
+    
+    .btn-div{
+     line-height: 8;
+    }
+    
+    .btn{
+      border: 2.2px solid #D66939;
+      width: 230px;
+      padding: .3em;
+      font-size: 1.5em;
+    }
+      
+      .flex{
+        position: absolute;
+        top: 600px;
+        left: 190px;
+      }
+    
+    }
+
+    
+    @media screen and (max-width: 900px){
+      .flex{
+        position: absolute;
+        top: 620px;
+        left: 100px;
+      }
+    }
+    
+
+    
+    @media screen and (max-width: 800px){
+      .flex{
+        position: absolute;
+        top: 630px;
+        left: 90px;
+      }
+    }
+    
+
+
+    @media screen and (max-width: 700px){
+      .flex{
+        position: absolute;
+        top: 700px;
+        left: 100px;
+      }
+    }
+    
